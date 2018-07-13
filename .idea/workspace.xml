@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf739e01-54b9-4ef5-b579-b4afea53bb53" name="Default" comment="initial">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/boolean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/connectionstate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/AggregationCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/ChangeStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cursor/QueryCursor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document_provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/browserMissingSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/disconnected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/divergentArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/missingSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/mongooseError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/notFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/objectExpected.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/objectParameter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/overwriteModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/parallelSave.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/strict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/promise_provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/decimal128.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/documentarray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/embedded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/mixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/objectid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/bitwise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/exists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/geospatial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schematype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/statemachine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/decimal128.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/documentarray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/embedded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/objectid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/types/subdocument.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/authenticator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/errors/authenticationerror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/framework/connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/http/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/middleware/authenticate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/middleware/initialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/sessionmanager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/passport/lib/strategies/session.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/set-value/node_modules/extend-shallow/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/set-value/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/setprototypeof/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/setprototypeof/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/setprototypeof/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/setprototypeof/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-command/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-command/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-command/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-command/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-regex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-regex/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-regex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/shebang-regex/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/signal-exit/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/signal-exit/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/signal-exit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/signal-exit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/signal-exit/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/signal-exit/signals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/define-property/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/define-property/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/define-property/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/define-property/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-data-descriptor/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-data-descriptor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-data-descriptor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-descriptor/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-descriptor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-descriptor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-node/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/node_modules/kind-of/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/node_modules/kind-of/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/node_modules/kind-of/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/node_modules/kind-of/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon-util/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon/lib/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon/lib/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/snapdragon/lib/source-maps.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serv.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/serv.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Roqak" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Routes/event.js" />
+        <option value="$PROJECT_DIR$/Models/Ticket.js" />
+        <option value="$PROJECT_DIR$/Models/Eventt.js" />
+        <option value="$PROJECT_DIR$/Routes/ticket.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
+        <option value="$PROJECT_DIR$/client/src/logo.svg" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/client/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ticketr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ticketr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ticketr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ticketr" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ticketr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ticketr" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ticketr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ticketr" type="462c0819:PsiDirectoryNode" />
+              <item name="Routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.App.js">
+    <configuration name="App.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="App.js" working-dir="$PROJECT_DIR$/client/src" />
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="ticket.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="ticket.js" working-dir="$PROJECT_DIR$/Routes" />
+    <list>
+      <item itemvalue="Node.js.ticket.js" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.App.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.App.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.ticket.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf739e01-54b9-4ef5-b579-b4afea53bb53" name="Default" comment="" />
+      <created>1531035487677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531035487677</updated>
+      <workItem from="1531035503358" duration="1992000" />
+      <workItem from="1531037550160" duration="2000" />
+      <workItem from="1531177952272" duration="3401000" />
+      <workItem from="1531201082913" duration="364000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5759000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3290938" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/Routes" />
+                        <option value="$PROJECT_DIR$/Views" />
+                        <option value="$PROJECT_DIR$/public" />
+                        <option value="$PROJECT_DIR$/Models" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/serv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Routes/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Routes/ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Eventt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Routes/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Routes/ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Eventt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Routes/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Eventt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Routes/ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Ticket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/serv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
