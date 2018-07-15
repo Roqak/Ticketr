@@ -10,8 +10,11 @@ import Register from './Register';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Events from './Events';
 import Ticket from './Ticket';
+import {createStore} from 'redux';
 
 
+
+const store= createStore();
 class App extends Component {
     getData = event => {
         Axios.post(`https://api.coinmarketcap.com/v1/ticker/bitcoin/`)

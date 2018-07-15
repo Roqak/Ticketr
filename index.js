@@ -8,6 +8,7 @@ const ticket = require("./Routes/ticket");
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const Strategy = passport.Strategy();
+const port = process.env.PORT || 6000;
 // app.set('view engine','ejs');
 // app.use(express.static('public'));
 mongoose.connect(mongoUri)
@@ -29,4 +30,4 @@ app.use("/api/ticket",ticket);
 app.use("/api/event",event);
 
 
-app.listen(6000,()=>{console.log("Listening on port "+6000)});
+app.listen(port,()=>{console.log("Listening on port "+port)});
