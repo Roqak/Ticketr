@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'materialize-css';
 import Axios from 'axios';
-import axios from "axios/index";
+// import axios from "axios/index";
 import Header from './Header';
 import Footer from './Footer';
 import "./Style.css";
@@ -14,7 +14,7 @@ import {createStore} from 'redux';
 
 
 
-const store= createStore();
+// const store= createStore();
 class App extends Component {
     getData = event => {
         Axios.post(`https://api.coinmarketcap.com/v1/ticker/bitcoin/`)
