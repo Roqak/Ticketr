@@ -8,6 +8,7 @@ const ticket = require("./Routes/ticket");
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const Strategy = passport.Strategy();
+const path = require('path');
 const port = process.env.PORT || 6000;
 // app.set('view engine','ejs');
 // app.use(express.static('public'));
@@ -17,14 +18,15 @@ mongoose.connect(mongoUri)
 
 app.use(passport.initialize());
 require('./Routes/auth')(passport);
-
+if(process.env.NODE_ENV==='production'){
+    app.use(express.static('client/build'));
+    app.get('*',(req,res)=>{
+        res.sendfile(path.resolve(__dirname,'client','build','index.html'))
+    })
+}
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-app.get("/",(req,res)=>{
-    res.send("Home route");
-})
-
 app.use("/api/user",user);
 app.use("/api/ticket",ticket);
 app.use("/api/event",event);
