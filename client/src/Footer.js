@@ -18,7 +18,7 @@ class Footer extends Component{
                 <ul>
                   <li><Link className="grey-text text-lighten-3" to="#!"><i class="fab fa-facebook"> facebook</i></Link></li>
                   <li><Link className="grey-text text-lighten-3" to="#!"><i class="fab fa-twitter"> twitter</i></Link></li>
-                  <li><Link className="grey-text text-lighten-3" to="#!"><i class="fab fa-github"> Github</i></Link></li>
+                  <li><Link className="grey-text text-lighten-3" to="www.github.com/Roqak"><i class="fab fa-github"> Github</i></Link></li>
                 </ul>
               </div>
             </div>
