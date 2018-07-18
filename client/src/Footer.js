@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import "./Style.css"
-import {Link} from 'react-router-dom';
-
+import {Link,Redirect} from 'react-router-dom';
 
 class Footer extends Component{
     render(){
@@ -18,7 +17,7 @@ class Footer extends Component{
                 <ul>
                   <li><Link className="grey-text text-lighten-3" to="#!"><i class="fab fa-facebook"> facebook</i></Link></li>
                   <li><Link className="grey-text text-lighten-3" to="#!"><i class="fab fa-twitter"> twitter</i></Link></li>
-                  <li><Link className="grey-text text-lighten-3" to="https://www.github.com/Roqak"><i class="fab fa-github"> Github</i></Link></li>
+                  <li><Redirect className="grey-text text-lighten-3" to="https://www.github.com/Roqak"><i class="fab fa-github"> Github</i></Redirect></li>
                 </ul>
               </div>
             </div>
