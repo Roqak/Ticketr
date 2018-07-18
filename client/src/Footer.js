@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import "./Style.css"
+import {Link} from 'react-router-dom';
 
 
 class Footer extends Component{
@@ -9,24 +10,22 @@ class Footer extends Component{
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
-                <h5 className="white-text">Footer Content</h5>
-                <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 className="white-text">Ticketr</h5>
+                <p className="grey-text text-lighten-4">Book Your Tickets Noww.</p>
               </div>
               <div className="col l4 offset-l2 s12">
-                <h5 className="white-text">Links</h5>
+                <h5 className="white-text">Social</h5>
                 <ul>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><Link className="grey-text text-lighten-3" to="#!"><i class="fab fa-facebook"> facebook</i></Link></li>
+                  <li><Link className="grey-text text-lighten-3" to="#!"><i class="fab fa-twitter"> twitter</i></Link></li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="footer-copyright">
             <div className="container">
-            © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+            © 2018 Copyright
+            {/* <a className="grey-text text-lighten-4 right" href="#!">More Links</a> */}
             </div>
           </div>
         </footer>

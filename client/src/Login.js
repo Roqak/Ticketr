@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import LoadingSpinner from './LoadingSpinner';
+import ResultsTable from './ResultTable';
 
 
 class Login extends Component{
@@ -7,7 +9,9 @@ class Login extends Component{
         super();
         this.state={
             name:'',
-            password:''
+            password:'',
+            loading: false,
+            data: []
         }
         this.handleChange=this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -22,12 +26,23 @@ class Login extends Component{
             name: this.state.name,
             password: this.state.password
         }
-        axios.post('api/user/login',newUser)
-        .then(result=>{
-            console.log("Successful");
-            console.log(result.token);
-    })
-        .catch(err=>{console.log(err.message)})
+    //     axios.post('api/user/login',newUser)
+    //     .then(result=>{
+    //         console.log("Successful");
+    //         console.log(result.token);
+    // })
+    //     .catch(err=>{console.log(err.message)})
+        //
+        this.setState({ loading: true }, () => {
+            axios.post('/api/user/login',newUser)
+              .then(result => {this.setState({
+                loading: false,
+                data: result.data.token,
+              });
+              console.log(result.data.token)
+              })
+            .catch(err=>(console.log(err)))
+          });
     }
     render(){
         return(
@@ -48,6 +63,7 @@ class Login extends Component{
 </div>
   </div>
 </div>
+{this.state.loading ? <LoadingSpinner /> : <ResultsTable nn={this.state.data} />}
 </div>
 
 </main>
