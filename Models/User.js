@@ -8,12 +8,12 @@ const UserSchema = new Schema({
         required: true
     },
     tickets: {
-        type: [Object],
+        type: [ObjectId],
         required: false,
         default: null
     },
     transactions:{
-        type: [Object],
+        type: [ObjectId],
         required: false
     },
     password:{

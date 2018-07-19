@@ -43,7 +43,7 @@ router.get("/all",passport.authenticate('jwt', { session: false }),(req,res)=>{
         console.log(err)    })
 })
 //
-router.get("/manage/:id",(req,res)=>{
+router.get("/manage/:id",passport.authenticate('jwt', { session: false }),(req,res)=>{
     User.findOne({name: req.params.id})
     .then((result)=>{
         if(result){

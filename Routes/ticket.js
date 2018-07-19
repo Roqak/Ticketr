@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Ticket = require("../Models/Ticket");
 const Eventt = require("../Models/Eventt");
+const User = require('../Models/User')
 // const bodyparser = require("body-parser");
 // const app = express();
 const passport = require("passport");
@@ -59,5 +60,18 @@ router.post("/book",passport.authenticate('jwt', { session: false }),(req,res)=>
     const ticketPrice = req.body.price;
     
 });
+router.get('/mytickets/:user',(req,res)=>{
+    User.find({name:req.params.name})
+    .then((result)=>{
+        if(result){
+            res.status(200).json({data:result})
+        }
+    })
+    .catch(err=>{
+        console.log(err);
+        res.status(400).json({data:err})
+    })
+        
+})
 
 module.exports = router;
